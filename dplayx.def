@@ -1,0 +1,9 @@
+LIBRARY dplayx.dll
+
+EXPORTS
+    DirectPlayCreate       = fake_DirectPlayCreate       @1
+    DirectPlayEnumerateA   = fake_DirectPlayEnumerateA   @2
+    DirectPlayEnumerateW   = fake_DirectPlayEnumerateW   @3
+    DirectPlayLobbyCreateA = fake_DirectPlayLobbyCreateA @4
+    DirectPlayLobbyCreateW = fake_DirectPlayLobbyCreateW @5
+    DirectPlayEnumerate    = fake_DirectPlayEnumerate    @9
