@@ -2,6 +2,7 @@
 
 PROXY        = dplayx
 LDFLAGS      = -mdll -Wl,--enable-stdcall-fixup -Wl,--strip-all -Wl,--exclude-all-symbols
+CFLAGS       = -std=c99
 
 OBJS = dllmain.o
 
